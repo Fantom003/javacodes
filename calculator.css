@@ -1,0 +1,23 @@
+.container{
+    background-color: aquamarine;
+    height: 7000px;
+    width: 1500px;
+}
+.calculator{
+    justify-content: space-evenly;
+    text-align: center;
+    display: flex;
+    padding: 10px;
+}
+.calculator form input{
+    border:5px;
+    outline: 5px;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: black;
+    color:white;
+    cursor:pointer;
+    margin:10px;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1);
+}
